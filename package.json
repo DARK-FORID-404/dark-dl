@@ -1,0 +1,8 @@
+{
+  "name": "dark-dl",
+  "version": "1.0.0",
+  "description": "Social Media Downloader API",
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
