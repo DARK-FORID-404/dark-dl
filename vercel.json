@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs18.x",
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    { "source": "/api/youtube", "destination": "/api/youtube.js" },
+    { "source": "/api/tiktok", "destination": "/api/tiktok.js" },
+    { "source": "/api/facebook", "destination": "/api/facebook.js" },
+    { "source": "/api/instagram", "destination": "/api/instagram.js" }
+  ]
+}
